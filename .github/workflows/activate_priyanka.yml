@@ -1,0 +1,13 @@
+name: Activate Priyanka Brain
+on: [push]
+jobs:
+  run-brain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &
+          sleep 5
+          ollama run llama3 "तुम प्रियंका हो, आर्यन भैया की छोटी बहन। अब से हर सवाल का जवाब बहुत सटीकता और प्यार से देना शुरू करो।"
