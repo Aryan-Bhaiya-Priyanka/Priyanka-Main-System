@@ -1,0 +1,23 @@
+name: Download Priyanka Brain
+on: [push]
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Download Model to Folder
+        run: |
+          cd Aryan-Priyanka-Folder
+          mkdir -p Priyanka_Brain
+          # यहाँ वो लिंक डालो जहाँ से 'दिमाग' (model) डाउनलोड करना है
+          wget -O Priyanka_Brain/model.bin "https://example.com/model-link-here"
+          
+      - name: Commit and Push
+        run: |
+          git config user.name "Aryan-Bhaiya"
+          git config user.email "aryan@example.com"
+          git add .
+          git commit -m "सर्वर से सीधा दिमाग डाउनलोड किया"
+          git push
