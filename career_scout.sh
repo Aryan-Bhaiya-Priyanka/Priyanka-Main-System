@@ -1,0 +1,17 @@
+#!/bin/bash
+clear
+echo "========================================"
+echo "   BLACK KING | SWISS RE INTELLIGENCE     "
+echo "========================================"
+echo "[+] Entity: Swiss Re Group"
+echo "[+] Focus: Data, Cloud, Analytics & DevSecOps"
+echo "[+] Locations: Bangalore, Hyderabad, Mumbai"
+echo "[+] Status: Top Employer 2025"
+echo "----------------------------------------"
+echo "Active Roles Analyzed:"
+echo "1. Senior DevSecOps Engineer (Hyderabad)"
+echo "2. Senior Security Engineer - IAM (Bangalore/Hyd)"
+echo "3. Senior Data Engineer (Bangalore/Hyd)"
+echo "----------------------------------------"
+echo "[INFO] System ready for profile mapping."
+echo "========================================"
